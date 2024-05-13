@@ -47,7 +47,10 @@ header {
 }
 
 #menu-icon, .menu-icon {
-    color: red;
+    display: none;
+    width: 25px;
+    
+    color: rgb(18, 10, 87);
     font-size: 30px;
     z-index: 1000;
     cursor: pointer;
@@ -160,4 +163,10 @@ scroll-down i{
 }
 img {
     width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
 }
+
